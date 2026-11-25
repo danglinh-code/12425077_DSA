@@ -1,0 +1,15 @@
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\bin\Debug\net10.0\Buoi03_StackvaQueue.exe
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\bin\Debug\net10.0\Buoi03_StackvaQueue.deps.json
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\bin\Debug\net10.0\Buoi03_StackvaQueue.runtimeconfig.json
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\bin\Debug\net10.0\Buoi03_StackvaQueue.dll
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\bin\Debug\net10.0\Buoi03_StackvaQueue.pdb
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\Buoi03_StackvaQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\Buoi03_StackvaQueue.AssemblyInfoInputs.cache
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\Buoi03_StackvaQueue.AssemblyInfo.cs
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\Buoi03_StackvaQueue.csproj.CoreCompileInputs.cache
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\Buoi03_StackvaQueue.sourcelink.json
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\Buoi03_StackvaQueue.dll
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\refint\Buoi03_StackvaQueue.dll
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\Buoi03_StackvaQueue.pdb
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\Buoi03_StackvaQueue.genruntimeconfig.cache
+C:\Users\Đức Nguyễn\Desktop\12425016_DSA\Buoi03_StackvaQueue\obj\Debug\net10.0\ref\Buoi03_StackvaQueue.dll

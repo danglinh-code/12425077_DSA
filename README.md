@@ -8,7 +8,7 @@
 |-|-|-|-|
 |01|Đệ quy|Buoi01\_DeQuy|Đã nộp|
 |02|Danh sách|Buoi02\_DanhSach|Đã nộp|
-|03|Stack và Queue|Buoi03\_Stack\_Queue|Chưa nộp|
+|03|Stack và Queue|Buoi03\_Stack\_Queue|Đã nộp|
 |04|Cây|Buoi04\_Cay|Chưa nộp|
 |05|Sắp xếp|Buoi05\_SapXep|Chưa nộp|
 |06|Tìm kiếm|Buoi06\_TimKiem|Chưa nộp|

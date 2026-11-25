@@ -1,6 +1,6 @@
 # Buổi 03 – Stack và Queue
 
-Họ tên: Lê Thành Long· MSV: 12425071
+Họ tên: Đặng Thị Nhật Linh· MSV: 12425077
 
 ## Bài đã làm
 Chương 5: bài 1, 2, 3, 4, 5, 6.

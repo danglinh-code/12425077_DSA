@@ -47,6 +47,20 @@ class Program
         Bai7Chuong3();
         Console.WriteLine("=== Bai 8 Chuong 3 ===");
         Bai8Chuong3();
+        Console.WriteLine("=== Bai 1 Phan 1 ===");
+        Bai1Phan1();
+        Console.WriteLine("=== Bai 2 Phan 1 ===");
+        Bai2Phan1();
+        Console.WriteLine("=== Bai 3 Phan 1 ===");
+        Bai3Phan1();
+        Console.WriteLine("=== Bai 4 Phan 1 ===");
+        Bai4Phan1();
+        Console.WriteLine("=== Bai 5 Phan 1 ===");
+        Bai5Phan1();
+        Console.WriteLine("=== Bai 6 Phan 1 ===");
+        Bai6Phan1();
+        Console.WriteLine("=== Bai 7 Phan 1 ===");
+        Bai7Phan1();
         Console.ReadLine();
     }
 
@@ -355,5 +369,120 @@ class Program
         Console.Write("Nhap n: ");
         int n = int.Parse(Console.ReadLine());
         Console.WriteLine("S(" + n + ") = " + Can(1, n));
+    }
+
+    static int TongTu1DenN(int n)
+    {
+        if (n == 1) return 1;
+        return n + TongTu1DenN(n - 1);
+    }
+
+    static void Bai1Phan1()
+    {
+        Console.Write("Nhap n: ");
+        int n = int.Parse(Console.ReadLine());
+        Console.WriteLine("S(" + n + ") = " + TongTu1DenN(n));
+    }
+
+    static string DaoChuoi(string s)
+    {
+        if (s.Length <= 1) return s;
+        return DaoChuoi(s.Substring(1)) + s[0];
+    }
+
+    static void Bai2Phan1()
+    {
+        Console.Write("Nhap chuoi: ");
+        string s = Console.ReadLine();
+        Console.WriteLine("Chuoi dao nguoc: " + DaoChuoi(s));
+    }
+
+    static double LuyThuaDeQuy(double x, int n)
+    {
+        if (n == 0) return 1;
+        return x * LuyThuaDeQuy(x, n - 1);
+    }
+
+    static void Bai3Phan1()
+    {
+        Console.Write("Nhap co so x: ");
+        double x = double.Parse(Console.ReadLine());
+        Console.Write("Nhap so mu n: ");
+        int n = int.Parse(Console.ReadLine());
+        Console.WriteLine(x + "^" + n + " = " + LuyThuaDeQuy(x, n));
+    }
+
+    static int TimMax(int[] arr, int n)
+    {
+        if (n == 1) return arr[0];
+        int maxConLai = TimMax(arr, n - 1);
+        if (arr[n - 1] > maxConLai) return arr[n - 1];
+        return maxConLai;
+    }
+
+    static void Bai4Phan1()
+    {
+        Console.Write("Nhap so phan tu n: ");
+        int n = int.Parse(Console.ReadLine());
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write("arr[" + i + "] = ");
+            arr[i] = int.Parse(Console.ReadLine());
+        }
+        Console.WriteLine("Phan tu lon nhat: " + TimMax(arr, n));
+    }
+
+    static int SoChuSo(int n)
+    {
+        if (n < 10) return 1;
+        return 1 + SoChuSo(n / 10);
+    }
+
+    static void Bai5Phan1()
+    {
+        Console.Write("Nhap n: ");
+        int n = int.Parse(Console.ReadLine());
+        Console.WriteLine("So chu so cua " + n + " la: " + SoChuSo(n));
+    }
+
+    static void ChuyenDia(int n, char nguon, char trungGian, char dich)
+    {
+        if (n == 1)
+        {
+            Console.WriteLine("Chuyen dia 1 tu " + nguon + " -> " + dich);
+            return;
+        }
+        ChuyenDia(n - 1, nguon, dich, trungGian);
+        Console.WriteLine("Chuyen dia " + n + " tu " + nguon + " -> " + dich);
+        ChuyenDia(n - 1, trungGian, nguon, dich);
+    }
+
+    static void Bai6Phan1()
+    {
+        Console.Write("Nhap so dia n: ");
+        int n = int.Parse(Console.ReadLine());
+        ChuyenDia(n, 'A', 'B', 'C');
+    }
+
+    static void SinhNhiPhan(int[] a, int i, int n)
+    {
+        if (i == n)
+        {
+            Console.WriteLine(string.Join("", a));
+            return;
+        }
+        a[i] = 0;
+        SinhNhiPhan(a, i + 1, n);
+        a[i] = 1;
+        SinhNhiPhan(a, i + 1, n);
+    }
+
+    static void Bai7Phan1()
+    {
+        Console.Write("Nhap n: ");
+        int n = int.Parse(Console.ReadLine());
+        int[] a = new int[n];
+        SinhNhiPhan(a, 0, n);
     }
 }
